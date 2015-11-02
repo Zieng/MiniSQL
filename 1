@@ -1,0 +1,21 @@
+drop table student;
+
+create table student(
+	id int,
+	name char(1000),
+	primary key(id)
+);
+
+create index namestu on student(name);
+
+
+insert into student values(1,tom);
+insert into student values(2,lucy);
+insert into student values(3,jack);
+insert into student values(4,mark);
+insert into student values(5,tim);
+insert into student values(6,bob);
+insert into student values(7,hezo);
+insert into student values(8,leo);
+
+

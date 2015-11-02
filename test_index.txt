@@ -1,0 +1,53 @@
+drop table teacher;
+
+create table teacher(
+	tid char(255),
+	name char(255),
+	age char(255),
+	salary char(255),
+	primary key(tid)
+);
+
+create index name_index on teacher(name);
+
+insert into teacher values(
+aaaaaaaaaaaaaaaaa1,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaa2,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaa3,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaa4,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaa5,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaa6,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaa7,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaa8,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaa9,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaa0,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaaq,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaaw,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaae,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaar,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaat,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaay,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaau,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaai,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaait,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaao,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaap,tommmmmmmmmmmmmmm,243,1000.1,
+aaaaaaaaaaaaaaaaaa,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaas,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaad,tommmmmmmmmmmmmmm,243,1000.1,
+aaaaaaaaaaaaaaaaaf,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaag,tommmmmmmmmmmmmmm,233,1000.1,
+aaaaaaaaaaaaaaaaah,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaahf,tommmmmmmmmmmmmmm,223,1000.1,
+aaaaaaaaaaaaaaaaaj,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaak,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaal,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaa,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaaz,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaax,tommmmmmmmmmmmmmm,232,1000.1,
+aaaaaaaaaaaaaaaaac,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaav,tommmmmmmmmmmmmmm,213,1000.1,
+aaaaaaaaaaaaaaaaab,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaan,tommmmmmmmmmmmmmm,23,1000.1,
+aaaaaaaaaaaaaaaaam,tommmmmmmmmmmmmmm,223,1000.1,
+);

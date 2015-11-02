@@ -1,0 +1,9 @@
+create table stu(
+	id int,
+	name char(16),
+	sex char(8),
+	primary key(id)
+);
+select * from stu where id=123;
+
+drop table stu;

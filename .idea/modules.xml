@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/API/API.iml" filepath="$PROJECT_DIR$/API/API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BufferManager/BufferManager.iml" filepath="$PROJECT_DIR$/BufferManager/BufferManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CatalogManager/CatalogManager.iml" filepath="$PROJECT_DIR$/CatalogManager/CatalogManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DBFiles/DBFiles.iml" filepath="$PROJECT_DIR$/DBFiles/DBFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Draft/Draft.iml" filepath="$PROJECT_DIR$/Draft/Draft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IndexManager/IndexManager.iml" filepath="$PROJECT_DIR$/IndexManager/IndexManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interpretor/Interpretor.iml" filepath="$PROJECT_DIR$/Interpretor/Interpretor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiniSQL.iml" filepath="$PROJECT_DIR$/MiniSQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecordManager/RecordManager.iml" filepath="$PROJECT_DIR$/RecordManager/RecordManager.iml" />
+    </modules>
+  </component>
+</project>

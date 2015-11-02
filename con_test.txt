@@ -1,0 +1,7 @@
+select * from teacher where 200 > tid;
+select * from teacher where 1 >= tid;
+select * from teacher where 1.23 != tid;
+select * from teacher where 234 < tid;
+select * from teacher where 2222 <= name;
+select * from teacher where tid < 23;
+select * from teacher where tid >= 234;

@@ -1,0 +1,1 @@
+[{"tableName":"tt","filename":"tt.dbfile","colList":[{"attributeName":"id","type":"int","unique":false,"valueLen":4},{"attributeName":"name","type":"char(1000)","unique":false,"valueLen":1000},{"attributeName":"score","type":"float","unique":false,"valueLen":4}],"primaryKey":"id","recordLen":1008}]

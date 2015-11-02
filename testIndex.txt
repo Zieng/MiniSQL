@@ -1,0 +1,15 @@
+drop table student;
+
+create table student(
+	id int,
+	name char(1000),
+	primary key(id)
+);
+
+create index namestu on student(name);
+
+
+
+
+
+

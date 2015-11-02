@@ -1,0 +1,41 @@
+                if(IC.searchPath.size()<=1)   // need create a new inner block as new root
+                {
+                    up_node.blockNum = BPB.currentBlock;
+
+                    BplusBlock newRootBlock = new BplusBlock();
+                    for(int i=0;i<2147483647;i++)     //alloc a new empty block
+                    {
+                        if(!IC.existBlock.contains(i))
+                        {
+                            newRootBlock.currentBlock=i;
+                            newRootBlock.parentBlock=i;
+                            IC.existBlock.add(i);
+                            break;
+                        }
+                    }
+                    IC.rootBlock = newRootBlock.currentBlock;
+
+                    newRootBlock.nodeList = new ArrayList();
+                    newRootBlock.nodeList.add(up_node);
+                    newRootBlock.nextBlockNum = BPB_new.currentBlock;
+                    newRootBlock.nodeNum=1;
+
+                    //store the leaf node
+                    dump_block();
+                    BPB = BPB_new;
+                    dump_block();
+
+                    // store the new root block
+                    BPB = newRootBlock;
+                    return dump_block();
+                }
+                else
+                {
+                    // store the leaf
+                    dump_block();
+                    BPB = BPB_new;
+                    dump_block();
+
+                    int parent = IC.searchPath.pop();
+                    return insert_inner_node(up_node,parent);
+                }
